@@ -33,8 +33,4 @@ jobs:
         source venv/bin/activate
         buildozer android release
 
-    - name: Upload APK
-      uses: actions/upload-artifact@7b2ffb5ff2c347f8841cc126e5c36f2e8ea5e56f
-      with:
-        name: kto_podaet-release
-        path: bin/*.apk
+    
